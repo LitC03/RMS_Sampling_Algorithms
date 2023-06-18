@@ -8,8 +8,8 @@ set(groot,'defaultLegendInterpreter','latex','defaultAxesTickLabelInterpreter','
     , 'defaultAxesFontSize',12,'DefaultTextInterpreter','latex')
 
 %% Get cameraman image with/out noise 
-% load("random_val_images.mat",'rand_vals');
-rand_vals = rand(50,50,100);
+load("random_val_images.mat",'rand_vals');
+
 %% Set parameters
 r_factor=3;
 c_factor=4;
