@@ -1,2 +1,2 @@
 # RMS_Sampling_Algorithms
-Sparse Sampling Algorithms developed for my final year dissertation
+Sparse Sampling Algorithms developed for my final year project. In order to run a test, choose the folder and run the algA_[name_of_test] or algB_[name_of_test] scripts. These contain the data acquisition and pameter selection sections that will allow you to run the code correctly. Every time a test is run, a file with the information about the search will be saved (this can be commented out to save space)
