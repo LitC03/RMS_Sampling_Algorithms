@@ -12,8 +12,8 @@ rng(1);
 set(groot,'defaultLegendInterpreter','latex','defaultAxesTickLabelInterpreter','latex' ...
     , 'defaultAxesFontSize',12,'DefaultTextInterpreter','latex')
 
-%% Get cameraman image with/out noise 
-rand_vals = rand(50,50,100);
+load("random_val_images.mat",'rand_vals');
+
 %% Set parameters
 row_factor=3; % how many rows will be skipped in uniform sampling
 col_factor=4; % how many columns will be skipped in uniform samling
