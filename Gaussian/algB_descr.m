@@ -82,7 +82,7 @@ function [M,runs_left,seen, path_taken,nan_matr] = sample_uniform(I,total_runs)
         F = fftshift(fft2(curr_est)); 
         old_en = energy;
 
-        energy = (1/2*pi)*sum(abs(F.*conj(F).*paper).^2,'all'); %energy calculation
+        energy = (1/4*pi.^2)*sum(abs(F.*conj(F).*paper).^2,'all'); %energy calculation
          if (old_en>energy)
             decreased=1;
          end
